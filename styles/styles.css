@@ -1,1 +1,60 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Roboto";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #2A2C1F;
+  font-size: 1rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px;
+  flex: 1;
+}
+.container .header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .header .navbar .btn {
+  border-radius: 6px;
+  padding: 9px 25px;
+  border: 1px solid;
+}
+.container .header .navbar .btn-white {
+  border-color: #E7E8E3;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.container .header .navbar .btn-red {
+  background: #CF6F46;
+  border-color: #CF6F49;
+  color: white;
+}
+.container .header a {
+  margin-right: 2em;
+  line-height: 1.5rem;
+}
+.container .header a .fa-solid {
+  margin-right: 5px;
+  font-size: 1rem;
+}
+.container .header ul {
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=styles.css.map */
