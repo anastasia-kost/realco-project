@@ -16,6 +16,24 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  border-radius: 6px;
+  padding: 9px 25px;
+  border: 1px solid;
+  display: inline-block;
+}
+
+.btn-white {
+  border-color: #E7E8E3;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.btn-red {
+  background: #CF6F46;
+  border-color: #CF6F49;
+  color: white;
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -32,20 +50,6 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.container .header .navbar .btn {
-  border-radius: 6px;
-  padding: 9px 25px;
-  border: 1px solid;
-}
-.container .header .navbar .btn-white {
-  border-color: #E7E8E3;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-}
-.container .header .navbar .btn-red {
-  background: #CF6F46;
-  border-color: #CF6F49;
-  color: white;
-}
 .container .header a {
   margin-right: 2em;
   line-height: 1.5rem;
@@ -57,4 +61,33 @@ a {
 .container .header ul {
   display: flex;
   justify-content: space-around;
+}
+
+.main {
+  background-color: #F5F5F2;
+  background-image: url("/images/main-img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50vw 100%;
+  position: relative;
+}
+.main .main-info {
+  max-width: 45%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 150px 0;
+  gap: 25px;
+}
+.main .main-info .small-text {
+  border: 1px solid #E7E8E3;
+  border-radius: 32px;
+  background-color: #E7E8E3;
+  padding: 4px 12px;
+}
+.main .main-info h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.1em;
+  margin: 20px 0;
 }/*# sourceMappingURL=styles.css.map */
