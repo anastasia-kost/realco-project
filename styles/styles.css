@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+.text {
+  font-size: 1.1rem;
+  line-height: 1.8em;
+}
+
 .btn {
   border-radius: 6px;
   padding: 9px 25px;
@@ -150,11 +155,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 50px;
 }
 .second-section .media .media-text {
   max-width: 20%;
-  font-size: 1.1rem;
-  line-height: 1.8em;
 }
 .second-section .media .media-icons {
   display: flex;
@@ -164,4 +168,20 @@ a {
   width: 120px;
   height: 24px;
   filter: invert(52%) sepia(5%) saturate(700%) hue-rotate(189deg) brightness(87%) contrast(83%);
+  margin-right: 5px;
+}
+
+.central-heading {
+  padding: 60px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.central-heading h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+.central-heading .text {
+  color: #65665C;
 }/*# sourceMappingURL=styles.css.map */
