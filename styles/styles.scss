@@ -26,6 +26,13 @@ a {
     padding: 9px 25px;
     border: 1px solid;
     display: inline-block;
+    line-height: 30px;
+    transition: all .5s ease-in;
+
+    &:hover {
+       transform: translateY(-5px);
+    }
+ 
 }
 
 .btn-white {
@@ -84,13 +91,14 @@ a {
     position: relative;
   
 .main-info {
-    max-width: 45%;
+    max-width: 40%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     padding: 150px 0;
     gap: 25px;
 
+    // TEXT
     .small-text {
         border: 1px solid #E7E8E3;
         border-radius: 32px;
@@ -104,6 +112,53 @@ a {
         line-height: 1.1em;
         margin: 20px 0;
     }
+
+    .subtitle {
+        font-size: 1.25rem;
+        color: #65665C;
+        line-height: 1.8rem;
+    
     }
+
+    // FORM
+
+    .search-form {
+        display: flex;
+        width: 100%;
+        gap: 1em;
+    
+    .search-input {
+        position: relative;
+        flex-grow: 2;
+
+
+        input {
+            padding: 15px 0 15px 35px;
+            border: none;
+            border-radius: 6px;
+            border-color: #E7E8E3;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+            outline: none;
+            width: 100%;
+
+            &::placeholder {
+                color: #65665C;
+                line-height: 1.8rem;
+                padding-left: 5px;
+            }
+        }
+
+        .fa-solid {
+            width: 1.2em;
+            position: absolute;
+            left: 1em;
+            top: 1em;
+            z-index: 2;
+            margin-right: 15px;
+
+        }
+    }
+    }
+        }
 }
 
