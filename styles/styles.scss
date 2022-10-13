@@ -162,3 +162,41 @@ a {
         }
 }
 
+// Second section 
+
+.second-section {
+    padding: 60px 0;
+
+
+    // MEDIA BLOCK
+
+    .media {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .media-text {
+            max-width: 20%;
+            font-size: 1.1rem;
+            line-height: 1.8em;
+        }
+
+        .media-icons {
+            display: flex;
+            gap: 2.1em;
+
+
+            .media-icon {
+                    width: 120px;
+                    height: 24px;
+                    filter: invert(52%) sepia(5%) saturate(700%) hue-rotate(189deg) brightness(87%) contrast(83%);
+                }
+
+        }
+
+      
+
+
+
+    }
+}
