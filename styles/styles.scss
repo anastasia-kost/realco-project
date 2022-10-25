@@ -29,6 +29,7 @@ a {
     border-radius: 32px;
     background-color: #E7E8E3;
     padding: 4px 12px;
+    display: inline-block;
 }
 
    h2 {
@@ -64,6 +65,15 @@ a {
     border-color: #CF6F49;
     color: white;
 }
+
+  .btn-transp {
+      border: none;
+      box-shadow: none;
+
+      span {
+          margin-left: 5px;
+      }
+  }
 
 .container {
     max-width: 1300px;
@@ -242,6 +252,9 @@ a {
          .text {
              color: #65665C;
          }
+        h2 {
+            margin: 10px 0;
+        }
 }
 
 // ADVANTAGES SECTION 
@@ -268,14 +281,7 @@ a {
                 padding: 0;
             }
 
-            .adv-link {
-                border: none;
-                box-shadow: none;
-
-                span {
-                    margin-left: 5px;
-                }
-            }
+          
     }
 }
 
@@ -307,5 +313,76 @@ a {
     }
 
   
+}
+}
+
+// PROPERTIES SECTION
+
+.properties-section {
+
+    background: #F5F5F2;
+    padding: 100px 0;
+
+    .property-links {
+        margin: 0 auto;
+        text-align: center;
+
+        .btn-white {
+            background-color: #fff;
+        }
+    }
+
+    .properties {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2em;
+        padding-bottom: 80px;
+
+    .property-card {
+        background: #fff;
+        border-color: #E7E8E3;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+
+        img {
+            width: 100%;
+        }
+
+        .property-info {
+            padding: 1.55em;
+
+        i {
+            color: inherit;
+            margin-right: 3px;
+            }
+
+        .property-name {
+            font-size: 1.5rem;
+            margin: 20px 0 5px;
+        }
+
+        .property-price {
+            font-size: 1.125rem;
+            margin-bottom: 15px;
+        }
+
+        .property-loc {
+            font-size: 1rem;
+            color: #65665C;
+            margin-bottom: 15px;
+        }
+
+        .property-features {
+            display: flex;
+            justify-content: flex-start;
+            gap: 1.55em;
+            p {
+                color: #65665C;
+            }
+        }
+    }
+
+}
 }
 }
