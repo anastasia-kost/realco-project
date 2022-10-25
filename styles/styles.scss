@@ -24,6 +24,20 @@ a {
     line-height: 1.8em;
 }
 
+.small-text {
+    border: 1px solid #E7E8E3;
+    border-radius: 32px;
+    background-color: #E7E8E3;
+    padding: 4px 12px;
+}
+
+   h2 {
+       font-size: 3rem;
+       font-weight: 700;
+       line-height: 1.2em;
+       padding-bottom: 20px;
+   }
+
 // HEADER
 
 .btn {
@@ -104,12 +118,7 @@ a {
     gap: 25px;
 
     // TEXT
-    .small-text {
-        border: 1px solid #E7E8E3;
-        border-radius: 32px;
-        background-color: #E7E8E3;
-        padding: 4px 12px;
-    }
+ 
 
     h1 {
         font-size: 3.5rem;
@@ -195,21 +204,108 @@ a {
 
         }
     }
+
+    // STEPS BLOCK
+
+    .steps {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2em;
+
+
+        .step-info {
+            text-align: center;
+            border: 1px solid #E7E8E3;
+            border-radius: 16px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+            padding: 50px 40px;
+
+            .text {
+                font-size: 1rem;
+                line-height: 1.5em;
+                color: #65665C;
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                margin: 24px 0 17px;
+            }
+        }
+    }
 }
 
 .central-heading {
     padding: 60px 0;
     margin: 0 auto;
     text-align: center;
-
-    h2 {
-        font-size: 3rem;
-        font-weight: 700;
-        line-height: 1.2em;
-        padding-bottom: 20px;
-    }
-
          .text {
              color: #65665C;
          }
+}
+
+// ADVANTAGES SECTION 
+
+.advantages-section {
+
+.adv-right, .adv-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .adv-info {
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 22px;
+            .text {
+                color: #65665C;
+            }
+
+            h2 {
+                padding: 0;
+            }
+
+            .adv-link {
+                border: none;
+                box-shadow: none;
+
+                span {
+                    margin-left: 5px;
+                }
+            }
+    }
+}
+
+.adv-left {
+    .adv-info {
+        max-width: 48%;
+
+        .adv-points {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 2.5em;
+          
+            .adv-point {
+                flex: 1 0;
+                width: 45%;
+
+                .text {
+                    font-size: 1rem;
+                    line-height: 1.5rem;
+                }
+
+                h3 {
+                    margin: 16px 0;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+
+  
+}
 }

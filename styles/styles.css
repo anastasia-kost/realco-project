@@ -21,6 +21,20 @@ a {
   line-height: 1.8em;
 }
 
+.small-text {
+  border: 1px solid #E7E8E3;
+  border-radius: 32px;
+  background-color: #E7E8E3;
+  padding: 4px 12px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 20px;
+}
+
 .btn {
   border-radius: 6px;
   padding: 9px 25px;
@@ -88,12 +102,6 @@ a {
   flex-direction: column;
   padding: 150px 0;
   gap: 25px;
-}
-.main .main-info .small-text {
-  border: 1px solid #E7E8E3;
-  border-radius: 32px;
-  background-color: #E7E8E3;
-  padding: 4px 12px;
 }
 .main .main-info h1 {
   font-size: 3.5rem;
@@ -170,18 +178,82 @@ a {
   filter: invert(52%) sepia(5%) saturate(700%) hue-rotate(189deg) brightness(87%) contrast(83%);
   margin-right: 5px;
 }
+.second-section .steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2em;
+}
+.second-section .steps .step-info {
+  text-align: center;
+  border: 1px solid #E7E8E3;
+  border-radius: 16px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+  padding: 50px 40px;
+}
+.second-section .steps .step-info .text {
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #65665C;
+}
+.second-section .steps .step-info h3 {
+  font-size: 1.5rem;
+  margin: 24px 0 17px;
+}
 
 .central-heading {
   padding: 60px 0;
   margin: 0 auto;
   text-align: center;
 }
-.central-heading h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2em;
-  padding-bottom: 20px;
-}
 .central-heading .text {
   color: #65665C;
+}
+
+.advantages-section .adv-right, .advantages-section .adv-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.advantages-section .adv-right .adv-info, .advantages-section .adv-left .adv-info {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+.advantages-section .adv-right .adv-info .text, .advantages-section .adv-left .adv-info .text {
+  color: #65665C;
+}
+.advantages-section .adv-right .adv-info h2, .advantages-section .adv-left .adv-info h2 {
+  padding: 0;
+}
+.advantages-section .adv-right .adv-info .adv-link, .advantages-section .adv-left .adv-info .adv-link {
+  border: none;
+  box-shadow: none;
+}
+.advantages-section .adv-right .adv-info .adv-link span, .advantages-section .adv-left .adv-info .adv-link span {
+  margin-left: 5px;
+}
+.advantages-section .adv-left .adv-info {
+  max-width: 48%;
+}
+.advantages-section .adv-left .adv-info .adv-points {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2.5em;
+}
+.advantages-section .adv-left .adv-info .adv-points .adv-point {
+  flex: 1 0;
+  width: 45%;
+}
+.advantages-section .adv-left .adv-info .adv-points .adv-point .text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.advantages-section .adv-left .adv-info .adv-points .adv-point h3 {
+  margin: 16px 0;
+  font-size: 1.25rem;
 }/*# sourceMappingURL=styles.css.map */
