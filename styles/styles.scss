@@ -311,7 +311,6 @@ a {
             }
         }
     }
-
 }
 }
 
@@ -390,7 +389,6 @@ a {
     background: #F5F5F2;
     padding-bottom: 230px;
    
-
     .property-links {
         margin: 70px 0;
     }
@@ -399,7 +397,6 @@ a {
         display: grid;
         grid-template-columns: auto auto auto;
         gap: 2em;
-
 
         .location-link {
             background: #fff;
@@ -411,7 +408,6 @@ a {
                 padding: 12px 0;
                 transition: none;
                
-                
                 &:hover {
                         transform: none;
                     }
@@ -425,16 +421,9 @@ a {
 .dark-section {
     position: relative;
 
-
-
     .container {
         background: #65665C;
         border-radius: 24px;
-        // position: absolute;
-        // left: 0%;
-        // right: 0%;
-        // top: -250px;
-
         transform: translateY(-50%);
 
         .central-heading {
@@ -452,4 +441,49 @@ a {
         }
 
     }
+}
+
+// REVIEWS SECTION
+
+.reviews-section {
+
+    padding-bottom: 8em;
+
+    .central-heading {
+        padding-top: 0;
+    }
+
+    .reviews {
+        display: flex;
+        justify-content: space-between;
+        gap: 2em;
+
+        .review-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 2em;
+            text-align: left;
+            border: 1px solid #E7E8E3;
+            border-radius: 16px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+            padding: 2em;
+
+            .stars-icons i {
+                color: #CF6F46;
+            }
+
+            .customer-info {
+                display: flex;
+                gap: 1em;
+                align-items: center;
+
+                p {
+                    color: #65665C;
+                 
+                }
+            }
+        }
+    }
+
 }
