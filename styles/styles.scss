@@ -39,8 +39,6 @@ a {
        padding-bottom: 20px;
    }
 
-// HEADER
-
 .btn {
     border-radius: 6px;
     padding: 9px 25px;
@@ -57,6 +55,7 @@ a {
 
 .btn-white {
     border-color: #E7E8E3;
+    background: #fff;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -74,6 +73,8 @@ a {
           margin-left: 5px;
       }
   }
+
+// HEADER
 
 .container {
     max-width: 1300px;
@@ -128,8 +129,6 @@ a {
     gap: 25px;
 
     // TEXT
- 
-
     h1 {
         font-size: 3.5rem;
         font-weight: 400;
@@ -188,7 +187,7 @@ a {
 .second-section {
     padding: 60px 0;
 
-    // MEDIA BLOCK
+// MEDIA BLOCK
 
     .media {
         display: flex;
@@ -211,7 +210,6 @@ a {
                     filter: invert(52%) sepia(5%) saturate(700%) hue-rotate(189deg) brightness(87%) contrast(83%);
                     margin-right: 5px;
                 }
-
         }
     }
 
@@ -222,7 +220,6 @@ a {
         flex-direction: row;
         justify-content: space-between;
         gap: 2em;
-
 
         .step-info {
             text-align: center;
@@ -485,5 +482,27 @@ a {
             }
         }
     }
+}
 
+// BLOG SECTION
+
+.blog-section {
+    background:#F5F5F2;
+
+    .central-heading {
+        margin: 0;
+        text-align: left;
+
+        .heading-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            p {
+                max-width: 50%;
+                color: #65665C;
+                line-height: 1.6em;
+            }
+        }
+    }
 }

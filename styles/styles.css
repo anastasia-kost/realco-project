@@ -50,6 +50,7 @@ h2 {
 
 .btn-white {
   border-color: #E7E8E3;
+  background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -398,4 +399,22 @@ h2 {
 }
 .reviews-section .reviews .review-info .customer-info p {
   color: #65665C;
+}
+
+.blog-section {
+  background: #F5F5F2;
+}
+.blog-section .central-heading {
+  margin: 0;
+  text-align: left;
+}
+.blog-section .central-heading .heading-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog-section .central-heading .heading-block p {
+  max-width: 50%;
+  color: #65665C;
+  line-height: 1.6em;
 }/*# sourceMappingURL=styles.css.map */
